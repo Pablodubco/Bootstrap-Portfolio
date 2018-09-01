@@ -160,13 +160,10 @@ h1{
     }
 }
 
-/*Removes borders for middle nav button (portfolio link), and aligns text right, so it looks better when collapsed*/
+/*Removes borders for middle nav button (portfolio link) when collapsed*/
 @media only screen and (max-width: 768px) {
-    .navbar-toggler{
-        float: right;
-    }
+
     .nav-link{
-        text-align: right;
         padding: 0px;
     }
 
